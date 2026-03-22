@@ -3,11 +3,11 @@
 > *"You have power over your mind — not outside events. Realize this, and you will find strength."*
 > — Marcus Aurelius
 
-A purpose-built chatbot channelling the wisdom of the three great Stoic philosophers: **Marcus Aurelius**, **Seneca the Younger**, and **Epictetus**. Built for the Thinkly Labs Software Engineering assignment.
+A purpose-built chatbot channelling the wisdom of the three great Stoic philosophers: **Marcus Aurelius**, **Seneca the Younger**, and **Epictetus**.
 
 ## Live Demo
 
-🔗 [stoic-oracle.vercel.app](https://stoic-oracle.vercel.app) *(replace with your deployed URL)*
+🔗 [stoic-oracle.vercel.app]https://stoic-oracle-oqs7sqwh5-aksingh0430s-projects.vercel.app/
 
 ## Why Stoicism?
 
@@ -51,7 +51,7 @@ The API uses streaming SSE, so responses feel alive as they render.
 | Framework | Next.js 14 (App Router) |
 | Language | TypeScript |
 | Styling | Tailwind CSS + custom CSS variables |
-| AI | Anthropic Claude claude-opus-4-5 via `@anthropic-ai/sdk` |
+| AI | Grok|
 | Streaming | Edge Runtime + Server-Sent Events |
 | Fonts | Google Fonts (Cormorant Garamond, Josefin Sans) |
 | Deploy | Vercel |
@@ -68,7 +68,7 @@ npm install
 
 # 3. Set up environment variables
 cp .env.example .env.local
-# Add your Anthropic API key to .env.local
+# Add your Grok API key to .env.local
 
 # 4. Run development server
 npm run dev
